@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.home {
+  width: 100%;
+  height: 100vh;
+  background: url(https://wallpapers.com/images/hd/abstract-neon-waves-background-l2mc7c2lpiez4i5l.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+.home .box {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  left: 5%;
+  top: 30vh;
+}
+.home .box a {
+  text-decoration: none;
+}
+.home .box a .item {
+  width: 90%;
+  height: 10vh;
+  background: #000000;
+  margin-bottom: 3vh;
+  border-radius: 3vh;
+  display: flex;
+}
+.home .box a .item i {
+  font-size: 7vh;
+  position: relative;
+  top: 1.5vh;
+  left: 2vh;
+}
+.home .box a .item p {
+  position: relative;
+  top: 3.5vh;
+  left: 7vh;
+  font-size: 2.5vh;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+}
+.home h1 {
+  text-align: center;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 4vh;
+  margin-top: 5vh;
+}
